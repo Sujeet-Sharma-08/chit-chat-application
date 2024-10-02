@@ -115,9 +115,12 @@ export const loginUser = async (req, res) => {
     // Set the token in a secure HTTP-only cookie
     res.cookie("token", token, {
       httpOnly: true, // Prevent client-side JavaScript from accessing the token
-      // secure:true,
+      secure: true,  // Ensure this is true for production (HTTPS)
+      sameSite: "None",
       maxAge: 3 * 24 * 60 * 60 * 1000, // Cookie expiration time (3 days in milliseconds)
     });
+
+    console.log("res.cookie", res.cookie())
 
     // Respond with a success message (no need to return the token if stored in cookie)
     res.status(200).json({

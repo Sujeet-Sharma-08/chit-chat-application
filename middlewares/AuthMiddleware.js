@@ -5,7 +5,7 @@ dotenv.config();
 export const authMiddleware = async (req, res, next) => {
   try {
     const token = req.cookies.token; // Safely access the cookies object
-    // console.log("token from middleware", token)
+   
     if (!token) {
       return res.status(401).json({
         success: false,
