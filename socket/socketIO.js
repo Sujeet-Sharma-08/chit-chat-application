@@ -9,7 +9,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:3000"],  // frontend url
+    origin: ["https://66fda0562443dc7547ce6e86--voluble-crumble-4b8416.netlify.app/"],  // frontend url
     methods: ["GET", "POST"],
     credentials:true
   },
