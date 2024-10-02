@@ -18,7 +18,7 @@ app.use(cookieParser());
 
 // CORS configuration
 app.use(cors({
-  origin: 'http://localhost:3000',  // frontend url
+  origin: 'https://66fda0562443dc7547ce6e86--voluble-crumble-4b8416.netlify.app/',  // frontend url
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true, // Allow credentials (cookies, authorization headers, etc.)
 }));
