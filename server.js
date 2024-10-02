@@ -18,7 +18,7 @@ app.use(cookieParser());
 
 // CORS configuration
 app.use(cors({
-  origin: 'https://66fda0562443dc7547ce6e86--voluble-crumble-4b8416.netlify.app',  // frontend url
+  origin: 'https://voluble-crumble-4b8416.netlify.app',  // frontend url
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true, // Allow credentials (cookies, authorization headers, etc.)
 }));
