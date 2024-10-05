@@ -12,6 +12,6 @@
 3- logout 4- after logging user can send message to anyone who is logged in , in this app 5-when two user logged in then it shows when user is currently active(online) and it enables to sending message to online users as well all users who is logged in . 6- for real time chat we have implemented socket.io in our backend(socket.io backend configuration) and in frontend(socket.io frontend configuration)
 
 ### live link 🔗 -: https://lnkd.in/gDbexP57
-GitHub repo of frontend -: https://lnkd.in/gB3cSTw8
+GitHub repo of frontend -: https://github.com/Sujeet-Sharma-08/chit-chat-frontend
 Note- if you want to see this complete feature ->5-when two user logged in then it shows when user is currently active(online) and it enables to sending message to online users as well all users who is logged in . then , you have to open it into other other browser. if you want to logged in , in same browser it doesn't work due to token issues.
 
